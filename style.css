@@ -154,3 +154,34 @@ nav ul {
     justify-content: center;
 }
 
+/* call to action */
+
+.cta {
+    display:flex;
+    
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cta h2 {
+    font-size: 24px;
+    font-weight: extra-bold;
+    color:#f9faf8;
+}
+
+.cta p {
+    color: #f9faf8;
+}
+.cta1 {
+    background-color:#3882f6 ;
+    padding: 20px;
+    border-radius: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
