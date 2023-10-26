@@ -1,81 +1,85 @@
 * {
     box-sizing: border-box;
+    margin:0;
+    padding: 0;
 }
 
-
-.header {
-    background-color:#1f2937;
-
+body {
+    font-family: roboto, sans-serif;
 }
 
-.list {
-    color: #f9faf8;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 10px;
+/*Hero section*/
+
+.container1 {
+    background-color: #1f2937;
+    padding-top: 10px;
+    padding-bottom: 70px;
 }
 
-.header1 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.header3 {
-    display:flex;
-    justify-content: space-around;
-}
-
-.maintext {
+.herotext h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: extra-bold;
     color: #f9faf8;
 }
 
-.logo {
+.herotext p {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.logo header {
     font-size: 24px;
     color:#f9faf8;
+}
+
+.btn button {
+    background-color: #3882f6;
+    color:#f9faf8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.topheader {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    color: #e5e7eb;
+}
+
+.navigation nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.hero1 {
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
     
 }
 
-.maintext1 {
-    font-size: 18px;
-    color:#e5e7eb;
-}
-
-.buttons {
-    color: #3882f6;
-}
-
-.calltoaction {
-    background-color: #3882f6;
-}
-
-.infomation {
-    font-size: 34px;
-    font-weight: bolder;
-    color: #1f2937;
-}
-
-.quote {
-    background-color: #e5e7eb;
-}
-
-.quote1 {
-    font-size: 36px;
-    font-style: italic;
-    color: 1F2937;
-}
-
-.footer {
-    background-color: #1f2937;
-    color: #f9faf8;
-    padding: 20px;
+.placeholder {
     display: flex;
+    margin:auto;
+    align-content: center;
     justify-content: center;
+    padding: 100px;
+    background-color: grey;
 }
+
+.hero2 {
+    display: flex;
+    justify-content:space-between;
+    margin-right: 200px;
+}
+
