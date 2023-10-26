@@ -131,3 +131,26 @@ nav ul {
     padding: 30px;
 }
 
+/*Testimonial section */
+
+.test1 .p1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.test1 .p2 {
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.testimonial {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
