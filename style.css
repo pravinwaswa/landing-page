@@ -185,3 +185,11 @@ nav ul {
     padding: 50px;
 }
 
+.footer {
+    display:flex;
+    background-color: #1f2937;
+    padding: 30px;
+    justify-content: center;
+    align-content: center;
+    color: #f9faf8;
+}
